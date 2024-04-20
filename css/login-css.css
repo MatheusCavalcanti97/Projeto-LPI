@@ -85,12 +85,12 @@ input[type="password"] {
   width: 359px;
   height: 77px;
   border-radius: 30px;
+  padding-left: 10px;
 }
 
 input[type="text"]::placeholder,
 input[type="password"]::placeholder {
   color: linear-gradient(#000000 0%, #666666 100%);
-  padding-left: 10px;
 }
 
 .login i {

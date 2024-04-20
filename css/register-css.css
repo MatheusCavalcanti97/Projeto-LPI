@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  max-width: auto;
+  height: 100vh;
+}
+
+main {
+  width: auto;
+  height: 100vh;
+  display: inline;
+}
+
+.container-register {
+  max-width: 100%;
+  max-height: 100%;
+  background-image: linear-gradient(#631010 13%, #bb1e1e 100%);
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item-1 {
+  background-image: linear-gradient(#091cc7 50%, #0d166a 96%);
+  height: 525px;
+  position: inherit;
+}
+
+.item-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: red;
+  max-height: 850px;
+  max-width: 90%;
+  height: 850px;
+  border-radius: 45px;
+  background-color: #ffffff;
+  left: 100px;
+  position: relative;
+  top: -500px;
+}
+
+.item-2 > h1 {
+  color: #000000;
+  display: flex;
+  margin-left: 10px;
+  left: 50px;
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  font-size: 40px;
+}
+
+.item-2 > form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: space-between;
+  max-width: 1300px;
+  width: 1300px;
+  max-height: 850px;
+  height: 850px;
+}
+
+.register-1 {
+  background-color: #f4eded;
+  max-width: 400px;
+  width: 400px;
+  align-content: space-between;
+  border-radius: 30px;
+  margin: 35px;
+  margin-top: 50px;
+  max-height: 700px;
+  height: 700px;
+  padding: 20px;
+}
+
+.register-1 h2 {
+  color: #ef1010;
+  font-size: 16px;
+  text-decoration: underline;
+  margin: 5px;
+}
+
+.register-1 label {
+  display: block;
+  font-size: 12px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="password"] {
+  color: linear-gradient(#000000 0%, #666666 100%);
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.register-account {
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+#sub {
+  position: absolute;
+  display: block;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 430px;
+  width: 310px;
+  height: 60px;
+  border-radius: 30px;
+  top: 770px;
+  margin: auto;
+}
+
+#sub > button[type="submit"] {
+  align-content: center;
+  max-width: 310px;
+  width: 310px;
+  height: 60px;
+  text-align: center;
+  background-color: #719f5c;
+  border-radius: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+#sub > button[type="submit"]:hover {
+  background-color: #ef1010;
+  transition-duration: 250ms;
+}
+
+main > #return-page-login {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+  max-width: 60px;
+  max-height: 60px;
+  font-size: 60px;
+  position: absolute;
+  top: 92%;
+  left: 3%;
+}
+
+#return-page-login > a {
+  display: flex;
+  max-width: 60px;
+  max-height: 60px;
+  color: #ffffff;
+  text-decoration: none;
+}
