@@ -37,6 +37,11 @@ main {
   align-items: center;
 }
 
+button[type="submit"] > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .logoff > button[type="submit"] {
   background-image: linear-gradient(#151414 77%, #000000 100%);
   max-width: 150px;
