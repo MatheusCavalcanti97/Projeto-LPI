@@ -49,6 +49,7 @@ main {
   font-weight: bold;
   color: #000;
   color: #ffffff;
+  cursor: pointer;
 }
 
 button[type="submit"] > i {

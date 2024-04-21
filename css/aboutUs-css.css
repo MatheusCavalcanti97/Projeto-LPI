@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: auto;
+  height: 100vh;
+}
+
+header {
+  background-color: red;
+}
+
+main {
+  width: auto;
+  height: 100vh;
+  display: inline;
+  background-color: blue;
+}
+
+.logoff {
+  max-width: auto;
+  width: auto;
+  max-height: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding: 10px;
+  background-color: #f5ecee;
+  align-items: center;
+}
+
+.logoff > button[type="submit"] {
+  background-image: linear-gradient(#151414 77%, #000000 100%);
+  max-width: 150px;
+  width: 150px;
+  max-height: 50px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  font-weight: bold;
+  color: #000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button[type="submit"] > i {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  align-self: center;
+  top: 2px;
+  height: 20px;
+}
+
+.menu {
+  max-width: auto;
+  width: auto;
+  max-height: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  justify-items: stretch;
+  align-content: stretch;
+  align-self: stretch;
+  background-color: #f5ecee;
+}
+
+.menu > ul {
+  width: 100%;
+  max-height: 100px;
+  height: 100px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul > li {
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  width: 120px;
+  height: 50px;
+  align-content: center;
+  text-align: center;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: auto;
+  width: auto;
+  height: 80vh;
+  background-color: #f5ecee;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-content {
+  display: flex;
+  max-width: 1700px;
+  width: 1700px;
+  max-height: 600px;
+  height: 600px;
+  background-color: #f5ecee;
+  border-radius: 30px;
+  border: 1px solid #000;
+  padding: 50px;
+}
+
+.container-content > .item-content-1 {
+  max-width: 350px;
+  width: 350px;
+  background-color: transparent;
+  margin-right: 10px;
+  background-image: url("../image/pizzaiolo-preview.png");
+  background-size: contain;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.container-content > .item-content-2 {
+  max-width: 100%;
+  width: 100%;
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+
+.item-content-2 ul {
+  display: flex;
+  max-width: auto;
+  width: auto;
+  flex-direction: column;
+  max-height: 400px;
+  height: 400px;
+  text-align: justify;
+}
+
+.item-content-2 ul > li {
+  display: flex;
+  max-width: auto;
+  width: auto;
+  max-height: 300px;
+  height: 300px;
+  background-color: transparent;
+  border: transparent;
+  text-align: justify;
+  font-size: 35px;
+  font-style: italic;
+  padding: 10px;
+}
+
+.item-content-2 > p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.footer-page {
+  display: flex;
+  max-width: auto;
+  width: auto;
+  max-height: 200px;
+  height: 200px;
+  background-color: #871b1b;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.footer-page > .icons-footer {
+  max-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.icons-footer > a,
+i {
+  max-width: 30px;
+  width: 30px;
+  max-height: 30px;
+  height: 30px;
+  font-size: 30px;
+  margin-right: 60px;
+  color: #ffffff;
+  text-decoration: none;
+}
